@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:NavajoWhite;
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: Thistle;
+    border-bottom: 1px solid bisque;
+}
+.main-nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.main-nav li{
+    margin-left: 30px;
+}
+.main-nav a{
+    text-decoration: none;
+    color: purple;
+    font-size: 32px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+.main-nav a:hover{
+    color: bisque;
+}
+.main-content {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: bisque;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.cantina-section{
+    padding: 30px 0;
+    text-align: center;
+}
+.cantina-title {
+    color: #333333;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.image-full-width {
+    margin-bottom: 30px;
+}
+.image-container{
+    flex: 1;
+    text-align: center;
+}
+.cantina-image {
+    max-width: 60%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    display: block;
+    margin: 0 auto;
+}
+.text-full-width p {
+    color: #555555;
+    line-height: 1.7;
+    margin-bottom: 15px;
+    text-align: justify;
+    padding: 0 50px;
+}
+.text-block {
+    flex: 2;
+}
+.text-block h2 {
+    text-align: left;
+    color: #333333;
+    font-size: 2em;
+    margin-bottom: 20px;
+    border-left: 5px solid purple;
+    padding-left: 15px;
+}
+.text-block p {
+    color: black;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+.main-footer{
+    background-color: #333;
+    color: beige;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+.main-footer p {
+    margin: 0;
+    font-size: 14px;
+}
+.contact-form {
+    margin-top: 30px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #444;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+.form-group button {
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.form-group button:hover {
+    background-color: #0056b3;
+}
+.logo-container img{
+    height: 150px;
+    display: block;
+}
